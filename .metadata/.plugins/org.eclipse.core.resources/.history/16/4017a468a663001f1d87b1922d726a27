@@ -1,0 +1,11 @@
+package com.priya;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class Mobile {
+	@Value("Samsung")
+	String brand;
+	Sim s;
+	
+
+}

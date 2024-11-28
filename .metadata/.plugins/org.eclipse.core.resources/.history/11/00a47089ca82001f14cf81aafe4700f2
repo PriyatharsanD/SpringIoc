@@ -1,0 +1,18 @@
+package com.priya;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class Config {
+	@Bean
+	public Mobile getMobile()
+	{
+		return new Redmi();
+	}
+	@Bean
+	public Processor getProcessor()
+	{
+		return new MediaTek();
+	}
+}

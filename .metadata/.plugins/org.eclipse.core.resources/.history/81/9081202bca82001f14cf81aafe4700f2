@@ -1,0 +1,12 @@
+package com.priya;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class Config {
+	@Bean
+	publuc Mobile getMobile()
+	{
+		return new Redmi();
+	}
+}

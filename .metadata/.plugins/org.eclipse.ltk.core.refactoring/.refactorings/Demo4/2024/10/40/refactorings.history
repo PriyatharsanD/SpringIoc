@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;configure.xml&apos; to &apos;Practice/src/main/java/com.priya&apos;&#x0D;&#x0A;- Original project: &apos;Demo4&apos;&#x0D;&#x0A;- Destination element: &apos;Practice/src/main/java/com.priya&apos;&#x0D;&#x0A;- Original element: &apos;configure.xml&apos;" description="Copy file" destination="=Practice/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.priya" element1="src/main/java/configure.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1728023939946" units="0" version="1.0"/>
+</session>

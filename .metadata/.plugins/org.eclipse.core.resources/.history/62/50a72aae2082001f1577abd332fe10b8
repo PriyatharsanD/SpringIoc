@@ -1,0 +1,27 @@
+package com.priya;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Scope;
+
+@Scope(value="prototype")
+public class Redmi implements Mobile {
+	int ram;
+	int storage;
+	@Autowired
+	@Qualifier("snap")
+	Processor p;
+	public Redmi(int ram,int storage)
+	{
+		this.ram=ram;
+		this.storage=storage;
+		System.out.println("Hello");
+	}
+	public Redmi()
+	{
+		
+	}
+	public void call() {
+		System.out.println("Calling from Redmi");
+	}
+}

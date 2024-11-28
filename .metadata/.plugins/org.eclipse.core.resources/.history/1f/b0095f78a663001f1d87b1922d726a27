@@ -1,0 +1,32 @@
+package com.priya;
+
+import org.springframework.beans.factory.annotation.Value;
+
+public class Mobile {
+	@Value("Samsung")
+	String brand;
+	Sim s;
+	public Mobile(String brand, Sim s) {
+		super();
+		this.brand = brand;
+		this.s = s;
+	}
+	public Mobile() {
+		super();
+	}
+	public String getBrand() {
+		return brand;
+	}
+	public void setBrand(String brand) {
+		this.brand = brand;
+	}
+	public Sim getS() {
+		return s;
+	}
+	public void setS(Sim s) {
+		this.s = s;
+	}
+	
+	
+
+}

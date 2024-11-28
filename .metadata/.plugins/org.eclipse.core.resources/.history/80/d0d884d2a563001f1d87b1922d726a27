@@ -1,0 +1,29 @@
+package com.priya;
+
+import org.springframework.beans.factory.annotation.Value;
+
+public class Sim {
+	@Value("Jio")
+	String sp;
+	@Value("3456789")
+	long num;
+	public Sim(String sp, long num) {
+		super();
+		this.sp = sp;
+		this.num = num;
+	}
+	public String getSp() {
+		return sp;
+	}
+	public void setSp(String sp) {
+		this.sp = sp;
+	}
+	public long getNum() {
+		return num;
+	}
+	public void setNum(long num) {
+		this.num = num;
+	}
+	
+
+}

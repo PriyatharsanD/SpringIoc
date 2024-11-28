@@ -1,0 +1,13 @@
+package com.priya;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Redmi implements Mobile {
+	@Autowired
+	Processor s;
+	public void call() {
+		System.out.println("Calling from Redmi");
+	}
+}

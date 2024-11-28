@@ -1,0 +1,15 @@
+package com.priya;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+public class App 
+{
+	public static void main(String[] args) {
+		ApplicationContext con = new AnnotationConfigApplicationContext(Config.class);
+		Redmi r = con.getBean(Redmi.class);
+		r.call();
+		r.p.process();
+		System.out.println(r.ram);
+	}
+}

@@ -1,0 +1,8 @@
+package com.priya;
+
+public class Redmi implements Mobile {
+
+	public void call() {
+		System.out.println("Calling from Redmi");
+	}
+}

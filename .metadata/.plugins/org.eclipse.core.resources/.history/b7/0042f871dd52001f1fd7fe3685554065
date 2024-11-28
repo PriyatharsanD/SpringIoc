@@ -1,0 +1,10 @@
+package com.priya;
+
+public class Snapdragon implements Processor {
+
+	public void process() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

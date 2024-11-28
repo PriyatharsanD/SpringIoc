@@ -1,0 +1,9 @@
+package com.priya;
+
+public class Mediatek implements Processor {
+
+	public void process() {
+		System.out.println("Media Tek");
+	}
+
+}

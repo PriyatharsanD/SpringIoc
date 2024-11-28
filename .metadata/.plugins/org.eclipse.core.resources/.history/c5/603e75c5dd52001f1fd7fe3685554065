@@ -1,0 +1,9 @@
+package com.priya;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Samsung {
+	Processor p;
+	
+}

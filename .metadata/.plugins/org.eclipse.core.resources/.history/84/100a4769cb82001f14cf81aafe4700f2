@@ -1,0 +1,11 @@
+package com.priya;
+
+import org.springframework.stereotype.Component;
+
+@Component("snap")
+public class MediaTek implements Processor 
+{
+	public void process() {
+		System.out.println("Mediatek is processing");
+	}
+}

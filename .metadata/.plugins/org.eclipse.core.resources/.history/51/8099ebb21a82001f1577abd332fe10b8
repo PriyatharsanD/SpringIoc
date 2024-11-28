@@ -1,0 +1,11 @@
+package com.priya;
+
+public class MediaTek implements Processor {
+
+	public void process() {
+		System.out.println("Snapdragon is processing");
+		
+	}
+	
+
+}

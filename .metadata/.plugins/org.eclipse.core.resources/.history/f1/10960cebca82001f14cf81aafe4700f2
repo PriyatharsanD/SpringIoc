@@ -1,0 +1,27 @@
+package com.priya;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+@Scope(value="prototype")
+@Component
+public class Redmi implements Mobile {
+	int ram;
+	int storage;
+	@Autowired
+	Processor p;
+	public Redmi(int ram,int storage)
+	{
+		this.ram=ram;
+		this.storage=storage;
+		System.out.println("Hello");
+	}
+	public Redmi()
+	{
+		System.out.println("hi");
+	}
+	public void call() {
+		System.out.println("Calling from Redmi");
+	}
+}

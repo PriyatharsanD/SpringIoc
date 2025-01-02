@@ -9,4 +9,7 @@ public class MediaTek implements Processor
 	public void process() {
 		System.out.println("Mediatek is processing");
 	}
+	public void read()
+	{
+	}
 }
